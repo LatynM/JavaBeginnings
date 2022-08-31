@@ -10,7 +10,7 @@ public class Main {
     Random rand = new Random();
     random=rand.nextInt(top);
 
-    System.out.println(random);
+    //System.out.println(random);
 
     System.out.println("NUMERO ALEATORIO GENERADO");
     System.out.println("INGRESE NUMERO ENTRE 1 Y 100");
@@ -36,6 +36,7 @@ public class Main {
 
     }while(guess!=random);
 
+    System.out.println("EL NUMERO ERA "+random);
     System.out.println("NUMERO DE INTENTOS: "+guessCounter);
 
 
